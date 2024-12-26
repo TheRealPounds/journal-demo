@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="he">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Journal Demo</title>
+
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/content.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/handsontable/styles/handsontable.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/handsontable/styles/ht-theme-main.min.css" />
+  </head>
+  <body>
+    <button class="js-minimize sidebar-button arrow-icon"><</button>
+    <div class="js-sidebar sidebar">
+      <div class="sidebar-title">
+        מתנדבים:
+        <button class="js-add-user sidebar-button plus-icon">+</button>
+      </div>
+
+      <div class="sidebar-search">
+        <img class="sidebar-search-icon" src="images/search icon.png">
+        <input class="js-user-search sidebar-search-input">
+      </div>
+
+      <div class="js-sidebar-users sidebar-users">
+      </div>
+    </div>
+
+    <div class="js-main main"></div>
+
+    <div class="js-pop-up pop-up">
+      <button class="js-pop-up-exit pop-up-background"></button>
+      <div class="pop-up-container">
+        <div class="js-pop-up-title pop-up-title"></div>
+        <div class="js-pop-up-content pop-up-content"></div>
+      </div>
+    </div>
+
+    <script type="module" src="scripts/main.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </body>
+</html>

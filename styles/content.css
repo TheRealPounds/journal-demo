@@ -1,0 +1,232 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.details {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.input {
+  background-color: rgb(70, 70, 70);
+  border: 2px solid;
+  border-color: rgb(40, 40, 40);
+  color: white;
+  font-size: large;
+}
+
+.input.sex, .input.sort {
+  direction: ltr;
+}
+
+.input.idNum {
+  width: 9ch;
+}
+
+.input.phoneNum {
+  width: 10ch;
+}
+
+.input.email {
+  direction: ltr;
+}
+
+.devider {
+  width: 100%;
+  height: 5px;
+  background-color: grey;
+  margin: 15px 0px;
+  border: none;
+  border-radius: 5px;
+}
+
+.details.save-button {
+  background-color: rgb(0, 140, 255);
+  border: 2px solid;
+  border-color: rgb(0, 87, 158);
+  border-radius: 15px;
+  color: white;
+  font-size: large;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.bubble-add-button {
+  background-color: rgb(70, 70, 70);
+  border: 2px solid;
+  border-color: rgb(30, 30, 30);
+  padding: 5px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  color: white;
+  margin-right: 20px;
+  font-size: larger;
+}
+
+.bubbles-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+} 
+
+.bubble-container {
+  background-color: rgb(60, 60, 60);
+  border: 5px solid;
+  border-color: rgb(30, 30, 30);
+  border-radius: 50px;
+  width: 400px;
+  margin-right: 25px;
+  margin-left: 25px;
+  margin-top: 50px;
+  padding-right: 20px;
+  display: inline-block;
+}
+
+.bubble-title {
+  font-size: xx-large;
+  margin-top: 5px;
+  width: 95%;
+  word-wrap: break-word;
+}
+
+.bubble-button {
+  background-color: rgb(70, 70, 70);
+  border: 2px solid;
+  border-color: rgb(30, 30, 30);
+  padding: 5px 6px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.bubble-subtitle {
+  margin-bottom: 15px;
+  color: lightgray;
+}
+
+.bubble-content {
+  word-wrap: break-word;
+  margin-bottom: 10px;
+  width: 95%;
+  background-color: rgb(60, 60, 60);
+  border: none;
+  color: white;
+  font-size: large;
+  field-sizing: content;
+  resize: none;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.note-type-options {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.table-size {
+  display: inline-block;
+}
+
+.input.note-select, .input.graph-axis-select {
+  direction: ltr;
+}
+.input.note-select.hide {
+  display: none;
+}
+
+.input.table-size {
+  width: 50px;
+}
+
+.table-size.hide {
+  display: none;
+}
+
+.handsontable {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.handsontable.hide {
+  display: none;
+}
+
+.graph-container {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.input.graph-name {
+  width: 150px;
+  margin-bottom: 5px;
+}
+
+.graph-settings.hide {
+  display: none;
+}
+
+.files.header-container {
+  margin-bottom: 15px;
+}
+
+.files-disclaimer {
+  color: lightgrey;
+  margin-bottom: 10px;
+}
+
+.upload-icon {
+  width: 20px;
+  margin-right: 1000px;
+  margin-left: 1000px;
+  margin-bottom: 5px;
+}
+
+.upload-file-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(70, 70, 70);
+  padding: 5px;
+  border: 3px solid;
+  border-color: rgb(30, 30, 30);
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+.file-container {
+  border: 2px solid;
+  border-color: rgb(50, 50, 50);
+  padding: 6px;
+}
+
+.color-light {
+  background-color: rgb(60, 60, 60);
+}
+
+.color-dark {
+  background-color: rgb(40, 40, 40);
+}
+
+.file-right {
+  display: inline-block;
+  margin: 0px;
+}
+
+.file-delete-button {
+  background-color: rgb(100, 100, 100);
+  border: 2px solid;
+  border-radius: 50%;
+  border-color: rgb(30, 30, 30);
+  padding: 2px 4px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+.file-element {
+  display: inline;
+}
+
+.file-element.format {
+  margin-right: 30px;
+}
