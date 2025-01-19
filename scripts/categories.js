@@ -65,11 +65,8 @@ function renderDetails(userData) {
        עמותה:
         <input class="input institution" value="${institution}" list="institutionList" style="width: ${Math.max(15, address.length)}ch;">
         <datalist id="institutionList">
-          <option value="גוונים">
-          <option value="חיבורים">  
-          <option value="אבני דרך לחיים">
-          <option value="רואים רחוק">
-          <option value="שלווה">
+          <option value="תורמים במדים">
+          <option value="שילוב במדים">  
         </datalist>
       </div>
       <div class="details interest">תחומי עניין: <input class="input interests" value="${interests}" style="width: ${Math.max(15, email.length)}ch;"></div>
