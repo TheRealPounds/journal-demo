@@ -11,6 +11,16 @@
   z-index: 1000;
 }
 
+.docm-button, .docm-button:visited {
+  background-color: rgb(70, 70, 70);
+  color: white;
+  border: 2px solid;
+  border-color: rgb(30, 30, 30);
+  border-radius: 10px;
+  padding: 5px;
+  text-decoration: none;
+}
+
 .sidebar-title {
   margin-bottom: 10px;
   padding-top: 20px;
@@ -34,10 +44,10 @@
 .arrow-icon {
   rotate: 90deg;
   position: fixed;
-  top: 20px;
+  top: 42px;
   right: 175px;
   z-index: 1010;
-  transition: right 0.75s ease-in, rotate 0.75s ease-in;
+  transition: right 0.75s ease-in, top 0.75s ease-in, rotate 0.75s ease-in;
 }
 
 .plus-icon {
@@ -78,11 +88,16 @@
   text-align: right;
 }
 
+.selected-user {
+  background-color: rgb(70, 70, 70);
+}
+
 .sidebar.minimized {
   right: -215px;
 }
 
 .arrow-icon.minimized {
   right: 10px;
+  top: 5px;
   rotate: 180deg;
 }
