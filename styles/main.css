@@ -12,7 +12,7 @@ body {
 }
 
 .user-title {
-  margin-top: 35px;
+  margin-top: 15px;
   margin-bottom: 5px;
   margin-left: 10px;
   font-size: 50px;
@@ -106,10 +106,6 @@ body {
 
 .main.minimized {
   margin-right: 10px;
-}
-
-.selected-user {
-  background-color: rgb(70, 70, 70);
 }
 
 .trash-icon {
