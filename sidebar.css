@@ -88,6 +88,10 @@
   text-align: right;
 }
 
+.selected-user {
+  background-color: rgb(70, 70, 70);
+}
+
 .sidebar.minimized {
   right: -215px;
 }
