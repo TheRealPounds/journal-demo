@@ -108,6 +108,10 @@ body {
   margin-right: 10px;
 }
 
+.selected-user {
+  background-color: rgb(70, 70, 70);
+}
+
 .trash-icon {
   width: 20px;
 }
